@@ -1,42 +1,36 @@
-# Project Description
+# Project: Popcorn Predictors - Movie Recommendation System
+## Project Overview
+This project focuses on designing and implementing a comprehensive movie recommendation system that suggests movies to users based on their viewing history, preferences, and movie attributes. The primary objective was to explore and compare different recommendation approaches to create an effective recommendation engine using the data analytics skills and machine learning techniques learned throughout this bootcamp.
 
-Recommendation systems have become an integral part of how we discover and enjoy content, from movies and music to products and services. 
-They help personalize the user experience by suggesting items that match individual preferences.
-A movie recommendation system, for example, identifies patterns in what people watch and uses that information to suggest films they are likely to enjoy.
+**Bootcamp:** NYU Tandon Data Science Bootcamp Spring 2025
 
-# Problem Statement
-The goal is to design and implement a movie recommendation system that suggests movies to users based on their viewing history, preferences, and the attributes of movies.
-This project focuses on exploring different recommendation approaches, including demographic filtering, content-based filtering, and collaborative filtering, to create a robust and effective recommendation engine.
+## Background
+Recommendation systems have become an integral part of how we discover and enjoy content, from music to products and services. They help personalize the user experience by suggesting items that match individual preferences. Key approaches include:
 - **Demographic Filtering:** technique that uses user demographic data (gender, age, location) to suggest items or content that are likely to be relevant to users with similar characteristics
 - **Content-Based Filtering:** technique that suggests items to a user based on their past interactions and preferences (genres, director, keywords, ratings, purchases), using item features to find similar items
 - **Collaborative Filtering:** technique that predicts user preferences by analyzing the behaviors and preferences (correlation) of similar users or items
+  
+## Research Objectives
+- Design and implement multiple recommendation system approaches for movie suggestions
+- Compare the effectiveness of demographic, content-based, and collaborative filtering techniques
+- Evaluate recommendation quality using standard machine learning metrics
+- Analyze patterns in user preferences and movie popularity trends
+- Create visualizations to showcase recommendation performance and insights 
 
-# Task 1: Dataset Exploration
-**Objectives:**
-- Gain familiarity with the TMDB 5000 Movie Dataset by analyzing its structure, key features, and the relationships between movies, genres, and user interactions
-- Perform data cleaning to address missing values, inconsistencies, and duplicates
+## Methods and Analytical Pipeline
+1. **Dataset Exploration:** TMDB 5000 Movie Dataset analysis and structure examination
+2. **Data Cleaning:** Addressing missing values, inconsistencies, and duplicate entries
+3. **Feature Engineering:** Extracting and transforming movie metadata for model input
+4. **Model Development:** Implementing and training multiple recommendation algorithms
+5. **Evaluation:** Performance assessment using precision, recall, F1-score, and MAP entries
 
-# Task 2: Feature Analysis
-**Objectives:**
-- Examine movie metadata such as genres, directors, cast, and descriptions to understand their role in influencing user preferences
-- Explore user interaction metrics (ex: ratings, watch counts) to identify patterns in movie popularity and user preferences
+## Repository Contents
+This folder contains:
+- Midterm and final project presentations
+- Personal data analysis for group project
 
-# Task 3: Recommendation Model Development
-**Objectives:**
-- Demographic Filtering: implement a baseline system that recommends popular and highly rated movies to all users
-- Content-Based Filtering: develop a recommendation model that uses movie metadata (ex: genres, actors, directors) to suggest similar movies based on user's viewing history
-- Collaborative Filtering: build a model that predicts user preferences by analyzing interactions and matching users with similar tastes
-
-# Task 4: Evaluation of Recommendations 
-**Objectives:**
-- Measure the effectiveness of the recommendation system using metrics such as precision, recall, F1 score, and mean average precision (MAP)
-- If possible, collect user feedback or simulate user studies to evaluate the relevance of the recommendations
-
-# Task 5: Visualization of Results
-**Objectives:**
-- Create visualizations to depict relationships between user preferences, movie features, and recommendation performance
-- Showcase trends in movie popularity, genre preferences, and user interaction patterns
+## Team Repository
+[Complete Group Project Repository](https://github.com/santiagob/popcorn-predictors)
 
 ---
-
-**Group Repository Link:** https://github.com/santiagob/popcorn-predictors
+_This project was completed as part of the NYU Tandon Data Science Bootcamp Spring 2025, demonstrating comprehensive machine learning and data science capabilities in recommendation system development._
