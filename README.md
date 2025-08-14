@@ -15,6 +15,7 @@ Participants accepted into the program engage in a collaborative, instructor-gui
 
 ## Repository Contents
 This repository contains:
+- Bootcamp syllabus
 - Practice exercises from lectures
 - Weekly homework assignments
 - Midterm and final project presentations
